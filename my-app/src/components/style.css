@@ -1,0 +1,197 @@
+/* src/components/Home.css */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner {
+  background-image: url('./img/bg01.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.banner h1 {
+  font-size: 36px;
+}
+
+.banner h2 {
+  font-size: 24px;
+}
+
+/* src/components/FavoritePersonalities.css */
+.favorite-personalities {
+  text-align: center;
+  padding: 20px;
+}
+
+.favorite-personalities h1 {
+  font-size: 36px;
+}
+
+.personalities-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.personality {
+  width: 250px;
+  text-align: center;
+}
+
+.personality img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* src/components/FavoriteCities.css */
+.favorite-cities {
+  text-align: center;
+  padding: 20px;
+}
+
+.favorite-cities h1 {
+  font-size: 36px;
+}
+
+.cities-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.city {
+  width: 300px;
+  text-align: center;
+}
+
+.city img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+/* src/components/FavoriteTouristSpots.css */
+.favorite-tourist-spots {
+  text-align: center;
+  padding: 20px;
+}
+
+.favorite-tourist-spots h1 {
+  font-size: 36px;
+}
+
+.spots-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.spot {
+  width: 300px;
+  text-align: center;
+}
+
+.spot img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+/* src/components/ContactPage.css */
+.contact-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-page h1 {
+  font-size: 36px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* src/components/Footer.css */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
